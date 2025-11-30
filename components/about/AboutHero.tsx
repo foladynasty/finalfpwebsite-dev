@@ -1,6 +1,6 @@
 'use client';
 
-import { Award, Users, TrendingUp, Heart } from 'lucide-react';
+import { Heart } from 'lucide-react';
 import { stats } from '@/lib/about-content';
 
 export default function AboutHero() {

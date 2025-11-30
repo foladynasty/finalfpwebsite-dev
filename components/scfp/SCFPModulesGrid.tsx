@@ -1,6 +1,6 @@
 'use client';
 
-import { scfpModulePages, getCoreModules, getElectiveModules } from '@/lib/scfp-module-pages';
+import { getCoreModules, getElectiveModules } from '@/lib/scfp-module-pages';
 import { ArrowRight, Clock, BookOpen, Award } from 'lucide-react';
 import Link from 'next/link';
 

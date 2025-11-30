@@ -1,7 +1,7 @@
 'use client';
 
 import { SCFPModulePage } from '@/lib/scfp-module-pages';
-import { ArrowRight, Calendar, Clock, Award, CheckCircle2, AlertCircle, GraduationCap, Users, DollarSign, Phone, Download, FileText, BookOpen } from 'lucide-react';
+import { ArrowRight, Calendar, Clock, Award, CheckCircle2, AlertCircle, Users, DollarSign, Phone, Download, FileText, BookOpen } from 'lucide-react';
 import { useState } from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';

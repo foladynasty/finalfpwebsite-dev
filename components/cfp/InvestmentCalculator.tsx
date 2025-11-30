@@ -23,7 +23,7 @@ export default function InvestmentCalculator() {
 
           {/* Pricing Cards */}
           <div className="grid md:grid-cols-3 gap-8 mb-12">
-            {pricingData.map((tier, index) => (
+            {pricingData.map((tier) => (
               <div
                 key={tier.level}
                 className={`rounded-2xl p-8 border-2 transition-all hover:shadow-2xl hover:-translate-y-1 ${

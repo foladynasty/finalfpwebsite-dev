@@ -8,12 +8,12 @@ export const metadata = {
 };
 
 export default function Module1Page() {
-  const module = getSCFPModuleBySlug('segmentation-targeting');
-  
-  if (!module) {
+  const moduleData = getSCFPModuleBySlug('segmentation-targeting');
+
+  if (!moduleData) {
     notFound();
   }
 
-  return <SCFPModulePageTemplate module={module} />;
+  return <SCFPModulePageTemplate module={moduleData} />;
 }
 

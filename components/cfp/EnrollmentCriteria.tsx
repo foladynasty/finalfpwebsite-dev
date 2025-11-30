@@ -1,6 +1,6 @@
 'use client';
 
-import { CheckCircle, GraduationCap, Briefcase, FileText, UserCheck, Calendar, ArrowRight } from 'lucide-react';
+import { CheckCircle, GraduationCap, Briefcase, FileText, UserCheck, ArrowRight } from 'lucide-react';
 import { enrollmentSteps } from '@/lib/cfp-content';
 
 export default function EnrollmentCriteria() {

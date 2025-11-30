@@ -110,17 +110,16 @@ export default function Footer() {
                 <div className="flex items-start space-x-2 mb-2">
                   <MapPin className="w-4 h-4 flex-shrink-0 mt-1 text-primary-400" />
                   <div>
-                    <p>[Your Office Address]</p>
-                    <p>[Building Name]</p>
-                    <p>[Postal Code]</p>
-                    <p>Singapore</p>
+                    <p>1 North Bridge Road</p>
+                    <p>High Street Centre, #03-07/08</p>
+                    <p>Singapore 179094</p>
                   </div>
                 </div>
               </div>
 
               <div className="flex items-center space-x-2">
                 <Phone className="w-4 h-4 text-primary-400" />
-                <span>[Main Phone Number]</span>
+                <span>+65 8111 7890</span>
               </div>
 
               <div className="space-y-1">
@@ -138,9 +137,7 @@ export default function Footer() {
                   <Clock className="w-4 h-4 flex-shrink-0 mt-1 text-primary-400" />
                   <div>
                     <p className="font-semibold text-white mb-1">Operating Hours:</p>
-                    <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
-                    <p>Saturday: 9:00 AM - 1:00 PM</p>
-                    <p>Sunday & Public Holidays: Closed</p>
+                    <p>Monday - Friday: 9:30 AM - 5:30 PM</p>
                   </div>
                 </div>
               </div>
@@ -151,8 +148,8 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
-            <p>© 2026 Financial Perspectives Pte Ltd. All rights reserved.</p>
-            <p className="mt-2 md:mt-0">Company Registration No: [Registration Number]</p>
+            <p>© 2025 Financial Perspectives Pte Ltd. All rights reserved.</p>
+            <p className="mt-2 md:mt-0">UEN: 199904645D</p>
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 'use client';
 
-import { Calendar, Filter } from 'lucide-react';
+import { Calendar } from 'lucide-react';
 
 interface EventsHeroProps {
   activeFilter: string;
