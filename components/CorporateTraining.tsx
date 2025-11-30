@@ -1,4 +1,4 @@
-import { Building2, Clock, DollarSign, TrendingUp, CheckCircle, ArrowRight } from 'lucide-react';
+import { Building2, Clock, TrendingUp, CheckCircle, ArrowRight } from 'lucide-react';
 
 export default function CorporateTraining() {
   return (

@@ -20,25 +20,6 @@ import { Newspaper, Award, FileText, Video, Download, Bell } from 'lucide-react'
 export default function MediaPage() {
   const [activeTab, setActiveTab] = useState('all');
 
-  const getSectionData = () => {
-    switch (activeTab) {
-      case 'press':
-        return { media: pressMedia, showResources: false };
-      case 'news':
-        return { media: newsAnnouncements, showResources: false };
-      case 'publications':
-        return { media: publications, showResources: false };
-      case 'videos':
-        return { media: videos, showResources: false };
-      case 'resources':
-        return { media: [], showResources: true };
-      default:
-        return { media: getFeaturedMedia(), showResources: true };
-    }
-  };
-
-  const { media, showResources } = getSectionData();
-
   return (
     <main className="min-h-screen bg-white">
       <Header />

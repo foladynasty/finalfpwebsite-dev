@@ -1,7 +1,6 @@
 'use client';
 
 import { DollarSign, TrendingUp, Phone, ArrowRight, CheckCircle } from 'lucide-react';
-import { scfpPricing } from '@/lib/scfp-content';
 
 export default function SCFPInvestment() {
   return (

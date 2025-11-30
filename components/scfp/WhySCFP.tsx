@@ -15,7 +15,7 @@ export default function WhySCFP() {
   };
 
   const getIcon = (iconName: string) => {
-    const icons: { [key: string]: any } = {
+    const icons: { [key: string]: React.ComponentType<{ className?: string }> } = {
       'users': Users,
       'trending-up': TrendingUp,
       'award': Award,
